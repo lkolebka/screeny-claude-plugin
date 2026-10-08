@@ -1,0 +1,11 @@
+{
+  "name": "screeny",
+  "displayName": "Screeny",
+  "version": "1.0.0",
+  "description": "Device mockups and 3D animation from your screenshots and screen recordings, made with the Screeny Mac app: flat bezels or 3D devices, camera moves, clean status bars, saved as PNG or video.",
+  "author": { "name": "Lazare Kolebka", "email": "hello@getscreeny.app", "url": "https://getscreeny.app" },
+  "homepage": "https://getscreeny.app/help/guide/mcp-server",
+  "repository": "https://github.com/lkolebka/screeny-claude-plugin",
+  "license": "MIT",
+  "keywords": ["mockup", "device-mockup", "3d-animation", "3d", "animation", "screenshot", "app-store", "product-video", "macos"]
+}

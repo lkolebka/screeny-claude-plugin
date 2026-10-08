@@ -1,0 +1,12 @@
+{
+  "name": "screeny",
+  "metadata": { "description": "Screeny for Claude: device mockups and 3D animation from a conversation, through the Screeny Mac app." },
+  "owner": { "name": "Lazare Kolebka", "email": "hello@getscreeny.app", "url": "https://getscreeny.app" },
+  "plugins": [
+    {
+      "name": "screeny",
+      "source": "./",
+      "description": "Device mockups and 3D animation from your screenshots and screen recordings, made with the Screeny Mac app."
+    }
+  ]
+}
