@@ -16,6 +16,16 @@ If only `screeny_status` is listed, or a Screeny tool answers that Screeny isn't
 3. **Look before exporting.** `preview_mockup` returns a small picture and costs nothing. For a video, pass `frames` or `times` to get the whole animation on one contact sheet in a single call. Check that the device isn't cropped, that a dark device still reads against its background, and that each close-up shows what it was meant to. Fix and preview again.
 4. **Export** with `create_mockup` (PNG) or `create_video_mockup` (MP4, or MOV with alpha on a transparent background). Tell the user where each file was saved.
 
+## Video quality
+
+`create_video_mockup` takes the same three choices as Screeny's export sheet, as `quality`:
+
+- `fast`: 1080p at 30 fps. The quickest render, good for a draft.
+- `balanced`: 1080p at 60 fps. The default; use it unless the user asks otherwise.
+- `ultra`: 4K at 60 fps. Use it when the user asks for 4K or the highest quality. It takes several times longer than `balanced`, so tell the user before a long or 3D export.
+
+All three cost the same credits.
+
 ## Files
 
 Screeny is sandboxed. It reads and writes only inside folders the user has granted.
